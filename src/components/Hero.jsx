@@ -39,13 +39,13 @@ const Hero = () => {
     
     {/* Left Content */}
     <div className="lg:w-1/2 w-full text-center lg:text-left pl-2">
-      <div className="inline-flex items-center mb-4 text-[#6A0A21] font-medium">
+      <div className="inline-flex items-center mb-4 text-[#6A0A21] dark:text-orange-600 font-medium">
         <FaLeaf className="mr-2" /> We value you
       </div>
 
       <h1 className="text-4xl md:text-5xl font-bold leading-tight">
-        <span className="text-[#6A0A21]">Freshest</span> Bites
-        <br /> <span className="text-[#6A0A21]">Served</span> Anytime
+        <span className="text-[#6A0A21] dark:text-orange-600">Freshest</span> Bites
+        <br /> <span className="text-[#6A0A21] dark:text-orange-600">Served</span> Anytime
       </h1>
               <p className="mt-4 text-gray-600 dark:text-gray-300 text-left">
           From sizzling-hot street food to gourmet cravings, our flavors stay fresh — no matter the hour.
